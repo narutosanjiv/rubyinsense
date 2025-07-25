@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.13'
-gem 'devise'
+gem 'rails', '3.2.14'
+gem 'devise', '>= 2.2.5'
 gem 'omniauth'
 gem 'omniauth-twitter'
 gem 'simple_form'
@@ -12,8 +12,8 @@ gem 'simple_form'
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
-  gem 'sass-rails',   '~> 3.2.3'
-  gem 'coffee-rails', '~> 3.2.1'
+  gem 'sass-rails', '~> 4.0.0'
+  gem 'coffee-rails', '~> 4.0.0'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', :platforms => :ruby
@@ -21,8 +21,8 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
-gem 'jquery-rails'
-gem 'haml-rails'
+gem 'jquery-rails', '>= 3.0.2'
+gem 'haml-rails', '>= 0.4'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
@@ -41,6 +41,6 @@ gem 'haml-rails'
 
 gem "mongoid", "~> 3.1.2"
 gem 'mongoid_slug'
-gem 'twitter-bootstrap-rails'
+gem 'twitter-bootstrap-rails', '>= 2.2.1'
 gem "therubyracer"
 gem "less-rails"
