@@ -39,8 +39,8 @@ gem 'haml-rails'
 # To use debugger
 # gem 'debugger'
 
-gem "mongoid", "~> 3.1.2"
-gem 'mongoid_slug'
+gem "mongoid", "~> 7.6.1"
+gem 'mongoid_slug', '>= 3.1.2'
 gem 'twitter-bootstrap-rails'
 gem "therubyracer"
 gem "less-rails"
